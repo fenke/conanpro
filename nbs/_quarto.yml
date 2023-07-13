@@ -1,9 +1,13 @@
 project:
   type: website
 
+title-block-banner: "#3e5665"
+
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 
