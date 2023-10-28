@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://fenke.github.io',
                 'git_url': 'https://github.com/fenke/conanpro',
                 'lib_path': 'conanpro'},
-  'syms': {'conanpro.core': {'conanpro.core.foo': ('core.html#foo', 'conanpro/core.py')}}}
+  'syms': {'conanpro.core': {'conanpro.core.foo': ('whysor_pgsql.html#foo', 'conanpro/core.py')}}}
