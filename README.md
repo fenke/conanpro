@@ -57,3 +57,15 @@ Use an existing environment or create a new one
     pip install --upgrade pip
     pip install -r dev-requirements
     python -m ipykernel install --user --name=nbdev
+
+## nbdev cycle
+
+- edit
+- nbdev_export
+- pip install -e ‘.\[dev\]’
+- nbdev_test
+- nbdev_clean
+- nbdev_readme
+- nbdev_prepare
+- git add .
+- 
