@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "conanpro",
+    "section": "",
+    "text": "Concept for Analytics Processing\nSmall conceptual framework to embed analytic functions in a composite host object that can provide them with data and process their result."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "conanpro",
+    "section": "Install",
+    "text": "Install\npip install conanpro"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "conanpro",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "index.html#setting-up-a-development-environment",
+    "href": "index.html#setting-up-a-development-environment",
+    "title": "conanpro",
+    "section": "Setting up a development environment",
+    "text": "Setting up a development environment\nDevelopment environment can be set up with venv or conda + venv. For a plain venv environment it is pretty straightforward. With conda we use a venv on top of a conda environment to install dependancies that are not available through conda.\n\nvenv\npython -m venv .nbdev\nsource .nbdev/bin/activate\n\npip install --upgrade pip\npip install -r dev-requirements\npython -m ipykernel install --user --name=nbdev\n\n\nconda + venv\nFirst set up the conda environment\n\nCreate conda environment\nUse an existing environment or create a new one\nconda env create -f numdev.yml\n\n\nCreating an underlying venv for nbdev\nconda activate numdev\npython -m venv --system-site-packages .nbdev\nsource .nbdev/bin/activate\npip install --upgrade pip\npip install -r dev-requirements\npython -m ipykernel install --user --name=nbdev"
+  },
+  {
+    "objectID": "index.html#nbdev-cycle",
+    "href": "index.html#nbdev-cycle",
+    "title": "conanpro",
+    "section": "nbdev cycle",
+    "text": "nbdev cycle\n\nedit\nnbdev_export\npip install -e ‘.[dev]’\nnbdev_test\nnbdev_clean\nnbdev_readme\nnbdev_prepare\ngit add ."
+  }
+]
